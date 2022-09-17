@@ -51,7 +51,7 @@ function renderAvatar (user) {
             $('.text-avatar').hide()
 
         } else {
-            $('.layui-nav-img').hide
+            $('.layui-nav-img').hide()
             let first = name[0].toUpperCase()
             $('.text-avatar').html(first).show()
 
